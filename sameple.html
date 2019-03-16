@@ -1,0 +1,191 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Sample bootstrap</title>
+
+<style>
+h1{background-color:red;color:white;text-align:center}
+P1{border: solid red; 
+    width: 60px; 
+    height: 1000px;
+    padding: 0px;
+    margin: 10px;}
+ #topline li{ padding-inline-start: 11px; margin-top:20px; background-color: #333;}
+body{ background-image:url("bg1.jpg")}
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;}
+li {float: left;}
+li button {display: block; text-align:centre; width: 220px;}
+p1{background-color:black; color: cornsilk;}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+<h1>MOVIES</h1>
+<div id="topline";>
+<ul>
+<li><button>Home</button></li>
+<li> <button>Kids</button> </li>
+<li> <button>events</button></li>
+<li> <button>movie</button></li>
+<li> <button>oldmovies</button></li>
+<li> <button>programes</button></li>
+</ul>
+</div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-3"></div> 
+            <div class="col-md-3"></div> 
+            <div class="col-md-3"></div> 
+            <div class="col-md-3"></div> 
+
+
+        </div>
+
+    
+<div class="row" id ="header">
+<div class="col-md-3">
+<P1> Action movie</P1>
+
+          <img src="ded.jpg" width="200" height="240">
+        <div class="desc">deadpol:Marvell studios</div>
+        <button> Tickets</button>
+</div>
+
+
+
+<div class="col-md-3">
+        <P1> Fantacy movie</P1>
+        
+                  <img src="charlie.jpg" width="200" height="240">
+                <div class="desc">Charlie and Cholocate Factory</div>
+                <button> Tickets</button>
+        </div>
+        
+        
+
+        <div class="col-md-3">
+                <P1> Action movie</P1>
+                
+                          <img src="aveng.jpg" width="200" height="240">
+                        <div class="desc">Avengers:Marvell studios</div>
+                        <button> Tickets</button>
+                </div>
+                
+
+                <div class="col-md-3">
+                        <P1> Adventure movie</P1>
+                        
+                                  <img src="thor.jpg" width="200" height="240">
+                                <div class="desc">THOR</div>
+                                <button> Tickets</button>
+                                <br> <br>
+                        </div>
+
+
+                        <div id="middle line";>
+                      <ul>
+                        
+<li> <button>Today</button> </li>
+<li> <button>This week</button></li>
+<li> <button>All</button></li>
+<li> <form action="/action_page.php">
+        Select Date: <input type="date" name="bday">
+        <input type="submit">
+      </form></li>
+</ul>
+</div>
+                        
+                        
+            <div class="column side">
+                <p>Name:Batman</p>
+                <p>Rating:9/10</p>
+            </div>
+            <div class=" column middle">
+                    <img src="bat.jpg"width="500" height="300">
+                <p>
+         From visionary filmmakers James Cameron and 
+         Robert Rodriguez comes an epic adventure of hope 
+         and empowerment.Awakening in a future world she does
+          not recognise with no memory of who she is, Alita is
+           taken in by a compassionate doctor who realises that
+         somewhere in this abandoned cyborg shell is the heart
+          and soul of a young woman with an extraordinary past.
+                </p>
+                <button> Book Now</button>
+            </div>
+            <div class="column side">
+                <img scr="images.jpg"width="300" height="100">
+                
+            </div>
+            <div class="column side">
+                <p>Name:Deadpool</p>
+                <p>Rating:10/10</p>
+            </div>
+           
+            <div class=" column middle">
+                <img src="deadpool.jpg"width="500" height="300">
+            <p>
+     From visionary filmmakers James Cameron and 
+     Robert Rodriguez comes an epic adventure of hope 
+     and empowerment.Awakening in a future world she does
+      not recognise with no memory of who she is, Alita is
+       taken in by a compassionate doctor who realises that
+     somewhere in this abandoned cyborg shell is the heart
+      and soul of a young woman with an extraordinary past.
+            </p>
+            <button> Book Now</button>
+        </div>
+            </div>
+        
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
